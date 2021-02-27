@@ -1,0 +1,74 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #F6F6F6;
+}
+header, .blog , footer {
+	width: 90%;
+	background: white;
+	margin:30px auto;
+}
+
+nav {
+	background: #0cb28b;
+}	
+.menu {
+	list-style: none;
+}
+.menu li {
+	display: inline-block;
+}
+.menu li a {
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+}
+header nav ul li a:hover {
+	background: #07664f;
+}
+.logo {
+	background: #1E2D40;
+}
+.fotologo {
+	display: block;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+
+
+
+
+
+.prin {
+	
+	width: 77%;
+	margin-right: 3%;
+	float: left;
+}
+.banner {
+	background: rgba(30,45,64,.4);
+	width: 20%;
+	float: left;
+	padding: 3px;
+	box-sizing: border-box;
+	margin-bottom: 15px;
+}
+.art {
+	margin-bottom: 15px;
+	background: rgba(30,45,64,.2);
+	padding: 5px;
+}
+footer {
+	background: #1E2D40;
+	color: white;
+	font-weight: bold;
+	clear: both;
+	text-align: center;
+	padding: 10px 0px;
+
+
+}
